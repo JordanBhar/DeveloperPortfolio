@@ -14,7 +14,7 @@ export const navLinks = [
     title: "Projects",
   },
   {
-    id: "education & skills",
+    id: "Education",
     title: "Education & Skills",
   },
   {
@@ -163,11 +163,6 @@ export const socialMedia = [
     id: "social-media-1",
     icon: linkedin,
     link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: linkedin,
-    link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
