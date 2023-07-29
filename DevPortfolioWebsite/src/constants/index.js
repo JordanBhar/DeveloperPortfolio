@@ -2,12 +2,8 @@ import {  linkedin  } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
+    id: "Home",
     title: "Home",
-  },
-  {
-    id: "about",
-    title: "About",
   },
   {
     id: "Projects",
@@ -18,7 +14,7 @@ export const navLinks = [
     title: "Education & Skills",
   },
   {
-    id: "contact",
+    id: "Contact",
     title: "Contact",
   },
 ];

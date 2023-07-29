@@ -1,28 +1,22 @@
-import React from 'react'
-import styles from '../style'
-import { useState } from 'react'
-import { Socials } from '../components'
-import { Navbar} from '../components'
-import { Navigate } from 'react-router'
+import React from 'react';
+import styles from '../style';
+import { Socials } from '../components';
 
-export const Home = () => {
+const Home = () => {
   return (
     <div>
-
-      <div className={`${styles.paddingX} ${styles.flexCenter} `}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar/>
-        </div>
-      </div>
-
-
       {/* Home Section Starts Here */}
       <section>
+        s
+        <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+          <div className={`${styles.boxWidth}`}>
+            {/* Navbar is already included in the App component */}
+          </div>
+        </div>
         <Socials/>
       </section>
-
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
