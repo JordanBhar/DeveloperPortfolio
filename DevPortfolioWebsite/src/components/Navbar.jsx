@@ -22,7 +22,7 @@ const Navbar = () => {
         />
 
         {/* Navigation Links Here */}
-        <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+        <ul className="list-none md:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -41,7 +41,7 @@ const Navbar = () => {
         </ul>
 
         {/* Supports for Smaller Devices */}
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="md:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="Mobile Menu"

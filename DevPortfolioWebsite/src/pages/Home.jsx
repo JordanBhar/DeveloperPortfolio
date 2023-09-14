@@ -5,56 +5,45 @@ import { Socials } from "../components";
 
 const Home = () => {
   return (
-    <section className="mt-[125px]">
-      <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+    <section className="mt-16">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        
         <div className={`${styles.boxWidth}`}>
-          <div className={`flex flex-row`}>
-            {/* Navbar is already included in the App component */}
 
-            <div className="basis-3/4 flex-col justify-center space-y-4">
-              <p className="text-5xl font-poppins font-bold text-white">
-                Hello, Im Jordan
+          <div className="flex flex-col justify-center space-y-10 md:flex-row">
+
+            <div className="md:w-3/4 space-y-5">
+
+              <p className="text-5xl font-bold text-white">
+                Hello, I'm Jordan
               </p>
 
-              <p className="text-5xl font-poppins font-bold text-teal-300">
-                Im a Full Stack Developer
+              <p className="text-5xl font-bold text-teal-300">
+                I'm a Full Stack Developer
               </p>
 
-              <p className="text-sm font-poppins text-white text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                turpis mi, auctor quis mi sit amet, scelerisque tincidunt eros.
-                Phasellus consequat neque sit amet orci consectetur, et faucibus
-                magna pretium. Nam faucibus eu turpis sit amet molestie. Donec
-                sapien tortor, sodales vel odio varius, posuere facilisis erat.
-                Morbi consectetur urna ut diam vestibulum, et rutrum diam
-                maximus. Donec sollicitudin dui et velit vulputate semper. Nam
-                laoreet ac lacus eget aliquet.
+              <p className="text-sm text-white text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam mollitia cupiditate error pariatur ducimus facilis architecto odit ratione, blanditiis quia quod magnam! A, iure placeat earum non laborum dolore eligendi autem. Dignissimos voluptatibus ea qui ducimus consectetur fugiat nostrum voluptas numquam aliquid, ipsum iusto officiis ipsa porro eligendi ipsam odit! Eaque, totam eveniet? Obcaecati repellendus recusandae odio eaque totam deleniti alias. Rem reiciendis, id unde nisi sed minima quae nulla illo incidunt iste fuga sequi! Odit animi deserunt eos corrupti maxime natus, quos veniam minima incidunt tempora atque ratione exercitationem repellat perferendis vel magnam magni eveniet iste mollitia vitae sint quod nesciunt explicabo similique! Tempora necessitatibus ullam dolores! Accusantium, harum odit animi dignissimos ab hic corporis nesciunt iure et voluptates culpa, sapiente dolorem alias enim veritatis consequatur? Eum cum, nisi similique totam corporis architecto soluta inventore eaque molestias ipsum minima autem ducimus cumque? Exercitationem quae magni porro, asperiores magnam repellendus libero dolores ipsum ad reprehenderit commodi temporibus, aut nesciunt sunt error natus perspiciatis quasi? Deserunt hic maiores ipsum, sed accusamus error odio quae unde quasi enim incidunt blanditiis quas. Perspiciatis ullam impedit minus accusantium quisquam beatae velit excepturi, possimus saepe! Sint asperiores velit iste non eius facilis voluptatibus deleniti accusamus.
               </p>
 
-              <a className="rounded-full bg-teal-400 text-white py-2 px-4 mt-[200px]" href="mailto:suv300@icloud.com">Contact Me</a>
-              
+              <div>
+                <a className="rounded-full bg-teal-400 text-white py-2 px-4" href="mailto:suv300@icloud.com">
+                  Contact Me
+                </a>
+              </div>
+
             </div>
 
-            <div className="basis-1/4 flex justify-center"></div>
-
-            <div className="basis-2/4 flex justify-center object-contain">
-              <img
-                src={profile}
-                className="h-[420px] w-[315px] rounded-lg shadow-2xl border-2"
-              ></img>
+            <div className=" mbs:invisible md:visible md:w-2/4 flex justify-center mt-[0px]">
+              <img src={profile} className="h-[25em] w-[20em] shrink rounded-lg shadow-2xl border-2 " alt="Profile"/>
             </div>
 
-            
           </div>
-          
-          <div className={`flex flex-row`}>
-            
-            
 
-          </div>
-          
         </div>
+
       </div>
+
       <Socials />
     </section>
   );

@@ -6,7 +6,7 @@ export const Socials = () => {
         <li key={socialMedia.id}>
             {socialMedia.map((social, index) => (
                 <a href={social.link}>
-                    <img src={social.icon} className="py-3"></img>
+                    <img src={social.icon} className="py-3 h-[60px] w-[60px]"></img>
                 </a>
             ))}
         </li>

@@ -7,7 +7,7 @@ import { Home, Education, Projects, Contact } from "./pages";
 const App = () => (
   <Router>
     <div className="bg-primary-gradient overflow-hidden">
-      <div className={` w-full overflow-hidden h-[1000px] ${styles.flexStart}`}>
+      <div className={` w-full overflow-hidden h-[2000px] ${styles.flexStart}`}>
         <div>
           <Navbar />
           <Switch>
