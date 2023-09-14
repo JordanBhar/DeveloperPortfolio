@@ -20,7 +20,7 @@ const Home = () => {
 
               <p className="text-2xl text-teal-300">
                 <span className="text-teal-300">I'm a Full Stack Developer</span> 
-                <span className="text-white">, with 6 Years of FullStack Experience using Swift & Swift UI , .Net, Springboot, Vanilla JS, React. I encourage you to reach out to me for Questions & Inquiry</span>
+                <span className="text-white">, with 4 Years of FullStack Experience using Swift & Swift UI , .Net, Springboot, Vanilla JS, React. I encourage you to reach out to me for Questions & Inquiry</span>
               </p>
 
               <div className=" mbs:visible md:hidden md:w-2/4 flex justify-center p-[40px]">
@@ -36,7 +36,7 @@ const Home = () => {
 
             </div>
 
-            <div className=" mbs:invisible md:visible md:w-2/4 flex justify-center">
+            <div className=" sm:invisible md:visible md:w-2/4 flex justify-center">
               <img src={profile} className="h-[25em] w-[22em] shrink rounded-lg shadow-2xl border-2  " alt="Profile"/>
             </div>
 

@@ -26,15 +26,13 @@ module.exports = {
       },
     },
     screens: {
-      mbs : "320px",
-      mbm : "375px",
-      mbl : "425px",
-      xs: "480px",
-      ss: "620px",
-      sm: "770px",
-      md: "1060px",
-      lg: "1200px",
-      xl: "1700px",
+      p : "320px", //Phone petite
+      xs: "375px", //Phone / Mobile Medium
+      ss: "425px", //Phone / Mobile Large
+      sm: "768px", //Tablet
+      md: "1024px", //Laptop
+      lg: "1440px", //Laptop Large
+      xl: "2560px", //4k
     },
   },
   plugins: [],

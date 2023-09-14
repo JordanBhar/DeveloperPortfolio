@@ -4,7 +4,15 @@ import styles from "../style";
 export const Projects = () => {
   return (
     <div className={`${styles.paddingX} ${styles.flexCenter} `}>
-      <div className={`${styles.boxWidth}`}>animate-bounce</div>
+      <div className={`${styles.boxWidth}`}>
+
+
+        <div className="bg-acrylic h-[300px] w-full">
+
+        </div>
+
+
+      </div>
     </div>
   );
 };
