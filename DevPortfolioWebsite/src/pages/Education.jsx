@@ -7,7 +7,7 @@ export const Education = () => {
       <div className={`${styles.boxWidth}`}>
 
 
-        Education
+        Education & Skills
 
 
       </div>

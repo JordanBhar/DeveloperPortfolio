@@ -6,6 +6,7 @@ export const Projects = () => {
     <div className={`${styles.paddingX} ${styles.flexCenter} `}>
       <div className={`${styles.boxWidth}`}>
 
+        Projects
 
         <div className="bg-acrylic h-[300px] rounded-xl">
 
