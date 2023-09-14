@@ -55,6 +55,7 @@ const Navbar = ({ educationRef, projectsRef, contactRef }) => {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={-100}
                 className={`transition duration-700 ease-in-out hover:text-teal-300 hover:border-b-2 text-xl border-teal-300`}
                 onClick={() => {
                   closeMenu();
@@ -99,6 +100,7 @@ const Navbar = ({ educationRef, projectsRef, contactRef }) => {
                     spy={true}
                     smooth={true}
                     duration={500}
+                    offset={-100}
                     className={`transition duration-700 ease-in-out hover:text-teal-300 hover:border-b-2 text-[20px] border-teal-300`}
                     onClick={closeMenu}
                   >

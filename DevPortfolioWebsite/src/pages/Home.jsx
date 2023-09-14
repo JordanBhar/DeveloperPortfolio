@@ -12,7 +12,7 @@ const Home = () => {
 
           <div className="flex flex-col justify-center space-x-20 md:flex-row">
 
-            <div className="md:w-3/4 space-y-10">
+            <div className="md:w-3/4 space-y-10 bg-acrylic rounded-lg shadow-2xl p-4">
 
               <p className="text-5xl font-bold text-gradient">
                 Hello, I'm Jordan

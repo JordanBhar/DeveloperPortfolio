@@ -2,7 +2,7 @@ import {  linkedin  } from "../assets";
 
 export const navLinks = [
   {
-    id: "", //needs to be empty for routing purposes
+    id: "Home", //needs to be empty for routing purposes
     title: "Home",
   },
   {
