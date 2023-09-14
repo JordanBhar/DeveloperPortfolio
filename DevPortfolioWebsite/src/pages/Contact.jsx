@@ -3,16 +3,18 @@ import styles from "../style";
 
 export const Contact = () => {
   return (
-    <div className={`${styles.paddingX} ${styles.flexCenter} `}>
-      <div className={`${styles.boxWidth}`}>
-        
-        Contact
-        <div className="bg-acrylic h-[100px] rounded-xl">
+    <section id="Contact">
+      <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+        <div className={`${styles.boxWidth}`}>
+          
+          Contact
+          <div className="bg-acrylic h-[100px] rounded-xl">
 
+          </div>
+        
         </div>
-      
       </div>
-    </div>
+    </section>
   );
 };
 

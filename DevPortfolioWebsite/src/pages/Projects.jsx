@@ -3,18 +3,20 @@ import styles from "../style";
 
 export const Projects = () => {
   return (
-    <div className={`${styles.paddingX} ${styles.flexCenter} `}>
-      <div className={`${styles.boxWidth}`}>
+    <section id="Projects">
+      <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+        <div className={`${styles.boxWidth}`}>
 
-        Projects
+          Projects
 
-        <div className="bg-acrylic h-[300px] rounded-xl">
+          <div className="bg-acrylic h-[300px] rounded-xl">
+
+          </div>
+
 
         </div>
-
-
       </div>
-    </div>
+    </section>
   );
 };
 
