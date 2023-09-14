@@ -15,22 +15,18 @@
 }
 
 
-.bg-primary{
-  background-color: black;
-}
-
 .bg-primary-gradient {
   background: rgb(2,43,58);
   background: linear-gradient(50deg, rgba(2,43,58,1) 60%, rgba(31,122,140,1) 89%, rgba(191,219,247,1) 100%, rgba(225,229,242,1) 100%);
 }
 
 .bg-acrylic{
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.4);
 }
 
 .text-gradient {
   background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
+    74.18% 104.18% at 75.16% 35.69%,
     #def9fa 0.89%,
     #bef3f5 17.23%,
     #9dedf0 42.04%,
@@ -42,28 +38,6 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-}
-
-.bg-blue-gradient {
-  background: linear-gradient(
-    157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
-  );
-}
-
-
-.bg-black-gradient {
-  background: linear-gradient(
-    144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
 }
 
 

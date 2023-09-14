@@ -14,7 +14,7 @@ const Home = () => {
 
             <div className="md:w-3/4 space-y-10">
 
-              <p className="text-5xl font-bold text-white">
+              <p className="text-5xl font-bold text-gradient">
                 Hello, I'm Jordan
               </p>
 
