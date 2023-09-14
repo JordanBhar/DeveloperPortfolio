@@ -12,12 +12,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="h-[200px]">
-      <div className="bg-acrylic m-[10px] h-[150px] w-full flex justify-between  rounded-lg shadow-2xl shadow-cyan-600/50">
+    <nav className="flex items center">
+      <div className="bg-acrylic m-[10px] h-[110px] w-full flex justify-between  rounded-lg shadow-2xl shadow-cyan-600/50">
         
         {/* Big Logo Here */}
         <div className="justify-start flex items-center">
-          <img src={logo} className="h-[125px] w-[125px] p-[15px] ml-[10px]" alt="Logo"/>
+          <img src={logo} className="h-[125px] w-[125px] xs:scale-75 p-[15px] ml-[10px]" alt="Logo"/>
         </div>
 
         {/* Navigation Links Here */}
@@ -32,10 +32,10 @@ const Navbar = () => {
         </ul>
 
         {/* Supports for Smaller Devices */}
-        <div className="md:hidden flex flex-1 justify-end items-center">
+        <div className="md:hidden flex justify-end items-center">
           <img src={toggle ? close : menu} alt="Mobile Menu" className="w-[28px] h-[38px] object-contain mr-6" onClick={() => setToggle((prev) => !prev)}/>
-          <div className={`${toggle ? "flex" : "hidden"} p-6 bg-acrylic  absolute top-28 right-0 mx-4 my-2 min-w-[300px] rounded-xl sidebar justify-end mt-[65px]`}>
-            <ul className={`list-none flex flex-col justify-end items-end`}>
+          <div className={`${toggle ? "flex" : "hidden"}  p-6 absolute top-28 md:right-10 min-w-[300px] p:min-w-[250px]  bg-acrylic rounded-xl sidebar justify-end mt-[10px]`}>
+            <ul className={`list-none flex flex-col items-end`}>
               {navLinks.map((nav, index) => (
                 <li key={nav.id} className={`font-poppins text-white text-[16px] ${index === navLinks.length ? "mr-0" : "mb-4"}`} onClick={closeMenu}>
                   <NavLink to={`/${nav.id}`} key={nav.id} className={`transition duration-700 ease-in-out hover:text-teal-300 hover:border-b-2 text-[20px] border-teal-300 `} onClick={closeMenu}>

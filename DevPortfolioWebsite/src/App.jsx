@@ -7,8 +7,8 @@ import { Home, Education, Projects, Contact } from "./pages";
 const App = () => (
   <Router>
     <div className="bg-primary-gradient overflow-hidden">
-      <div className={` w-full overflow-hidden h-[2000px] ${styles.flexStart}`}>
-        <div>
+      <div className={`w-full overflow-hidden h-[2000px] ${styles.flexStart}`}>
+        <div className="mx-auto"> {/* Center the Navbar */}
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
@@ -23,3 +23,4 @@ const App = () => (
 );
 
 export default App;
+

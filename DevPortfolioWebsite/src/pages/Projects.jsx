@@ -7,7 +7,7 @@ export const Projects = () => {
       <div className={`${styles.boxWidth}`}>
 
 
-        <div className="bg-acrylic h-[300px] w-full">
+        <div className="bg-acrylic h-[300px]">
 
         </div>
 

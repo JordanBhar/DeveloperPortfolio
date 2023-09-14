@@ -10,7 +10,7 @@ const Home = () => {
         
         <div className={`${styles.boxWidth}`}>
 
-          <div className="flex flex-col justify-center space-y-10 space-x-10 md:flex-row">
+          <div className="flex flex-col justify-center space-x-20 md:flex-row">
 
             <div className="md:w-3/4 space-y-10">
 
@@ -36,7 +36,7 @@ const Home = () => {
 
             </div>
 
-            <div className=" sm:invisible md:visible md:w-2/4 flex justify-center">
+            <div className=" p:invisible md:visible md:w-2/4 flex justify-center">
               <img src={profile} className="h-[25em] w-[22em] shrink rounded-lg shadow-2xl border-2  " alt="Profile"/>
             </div>
 
