@@ -2,7 +2,7 @@ import {socialMedia} from '../constants';
 
 export const Socials = () => {
   return (
-    <ul className="fixed bottom-20 right-20">
+    <ul className="fixed bottom-20 right-5">
         <li key={socialMedia.id}>
             {socialMedia.map((social, index) => (
                 <a href={social.link}>
