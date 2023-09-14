@@ -1,5 +1,5 @@
 const styles = {
-   boxWidth: "xl:w-[1800px] lg:w-[1200px] md:w-[800px] sm:w-[560px] ss:w-[320px] xs:w-[280px] p:w-[220px] w-full self-center mx-auto",
+   boxWidth: "xl:w-[1800px] lg:w-[1200px] md:w-[800px] sm:w-[560px] ss:w-[360px] xs:w-[280px] p:w-[220px] w-full self-center mx-auto",
 
   
     heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
@@ -25,5 +25,5 @@ const styles = {
   
     sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
   };
-  
+
   export default styles;

@@ -5,24 +5,21 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Home, Education, Projects, Contact } from "./pages";
 
 const App = () => {
+  const homeRef = useRef(null);
   const educationRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
-
-  const scrollToRef = (ref) => {
-    window.scrollTo({
-      top: ref.current.offsetTop,
-      behavior: "smooth",
-    });
-  };
 
   return (
     <Router>
       <div className="bg-primary-gradient overflow-hidden">
         <div className={`w-full overflow-hidden h-[3000px] ${styles.flexStart}`}>
-          <div className="mx-auto"> {/* Center the Navbar */}
+          <div className="mx-auto space-y-10"> {/* Center the Navbar */}
             <Navbar />
+            
+            <div ref={homeRef} id="Home">
             <Home/>
+            </div>
             <div ref={educationRef} id="Education">
               <Education />
             </div>

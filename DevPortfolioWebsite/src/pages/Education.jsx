@@ -9,6 +9,9 @@ export const Education = () => {
 
         Education & Skills
 
+        <div className="bg-acrylic h-[300px] rounded-xl">
+
+        </div>
 
       </div>
     </div>
