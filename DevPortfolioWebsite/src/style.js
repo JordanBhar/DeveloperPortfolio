@@ -17,8 +17,28 @@ const styles = {
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+
+    containers: 'bg-acrylic rounded-lg shadow-2xl p:p-4 md:p-8',
+    col: 'flex flex-col',
+    row: 'flex flex-row',
+    headerOneText: 'text-3xl md:text-4xl font-bold',
+    headerTwoText: '',
+    importantText: '',
+    regularText: 'text-white text-base md:text-l lg:text-xl',
+
+    horizontalRule: 'ml-[30px] h-0.5 mt-4 w-full bg-white border-0'
   };
+
+
+export const stylesHome = {
+
   
+  aboutButtons: 'rounded-full bg-teal-400 text-white py-2 px-4 md:py-3 md:px-5 text-base md:text-xl',
+  profileImg: 'h-[12em] w-[12em] md:h-[24em] md:w-[24em] shadow-2xl rounded-full border-2'
+
+}
+
+
   export const layout = {
     section: `flex md:flex-row flex-col ${styles.paddingY}`,
     sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
@@ -29,4 +49,4 @@ const styles = {
     sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
   };
 
-  export default styles;
+  export default styles

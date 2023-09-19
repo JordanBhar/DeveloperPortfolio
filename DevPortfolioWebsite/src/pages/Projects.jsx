@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../style";
+import ProjectGallery from "../components/ProjectGallery";
 
 export const Projects = () => {
   return (
@@ -7,15 +8,15 @@ export const Projects = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter} `}>
         <div className={`${styles.boxWidth}`}>
 
-          <h2 className="text-4xl font-bold text-white my-5">
-            <div className="flex flex-row items-center">
+          <h2 className={`${styles.headerOneText} text-white my-5`}>
+            <div className={`${styles.row} items-center`}>
               Projects 
-              <hr className={`ml-[30px] h-0.5 mt-4 ${styles.boxWidth} bg-white border-0`}></hr>
+              <hr className={styles.horizontalRule}></hr>
             </div>
           </h2>
 
-          <div className="bg-acrylic h-a rounded-xl p-2">
-
+          <div className={styles.containers}>
+            <ProjectGallery/>
           </div>
 
 

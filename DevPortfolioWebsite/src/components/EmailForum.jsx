@@ -20,7 +20,7 @@ const EmailForum = () => {
   };
 
   return (
-    <div className="max-w-xl mx-auto">
+    <div className="max-w-xl mx-auto p-4">
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">
