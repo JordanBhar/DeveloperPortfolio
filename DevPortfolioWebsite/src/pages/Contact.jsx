@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../style";
+import EmailForm from "../components/EmailForum";
 
 export const Contact = () => {
   return (
@@ -15,7 +16,7 @@ export const Contact = () => {
           </h2>
 
           <div className="bg-acrylic h-a rounded-xl p-2">
-
+            <EmailForm/>
           </div>
         
         </div>

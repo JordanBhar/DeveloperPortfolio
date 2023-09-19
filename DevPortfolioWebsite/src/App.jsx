@@ -14,24 +14,24 @@ const App = () => {
     <Router>
       <div className="bg-primary-gradient overflow-hidden font-poppins">
         <div className={`w-full overflow-hidden h-[3000px] ${styles.flexStart}`}>
-          <div className="mx-auto space-y-10"> {/* Center the Navbar */}
+          <div className="mx-auto"> {/* Center the Navbar */}
             <Navbar />
             
-            <div ref={homeRef} id="Home">
-            <Home/>
+            <div className="space-y-60">
+              <div ref={homeRef} id="Home" className="">
+              <Home/>
+              </div>
+              
+              <div ref={educationRef} id="Education">
+                <Education />
+              </div>
+              <div ref={projectsRef} id="Projects">
+                <Projects />
+              </div>
+              <div ref={contactRef}  id="Contact">
+                <Contact />
+              </div>
             </div>
-            <div ref={educationRef} id="Education">
-              <Education />
-            </div>
-            <div ref={projectsRef} id="Projects">
-              <Projects />
-            </div>
-            <div ref={contactRef}  id="Contact">
-              <Contact />
-            </div>
-
-            
-
           </div>
         </div>
       </div>
