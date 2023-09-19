@@ -29,7 +29,6 @@ const styles = {
     smallTextTitle: 'text-white text-base md:text-xs lg:text-base',
 
     horizontalRuleRight: 'ml-[30px] h-0.5 mt-2.5 w-full bg-white border-0',
-    horizontalRuleLeft: 'mr-[30px] h-0.5 mt-2 w-full bg-white border-0'
   };
 
 

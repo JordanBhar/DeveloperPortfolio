@@ -15,7 +15,7 @@ const App = () => {
       <div className="bg-primary-gradient overflow-hidden font-poppins">
         <div className={`w-full overflow-hidden h-a ${styles.flexStart}`}>
           <div className="mx-auto"> {/* Center the Navbar */}
-            <Navbar />
+            <Navbar/>
             
             <div className="space-y-60">
               <div ref={homeRef} id="Home" className="">

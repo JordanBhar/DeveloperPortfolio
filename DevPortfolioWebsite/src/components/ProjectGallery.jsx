@@ -4,7 +4,7 @@ import Card from './Card';
 
 function ProjectGallery() {
 
-    const cardGallery = 'grid md:grid-cols-3 sm:grid-cols-2 p:grid-cols-1 gap-4'
+    const cardGallery = 'grid md:grid-cols-3 sm:grid-cols-2 p:grid-cols-1 gap-4 gap-y-20'
 
     return (
         <div className={cardGallery}>

@@ -4,20 +4,24 @@ import styles from '../style';
 function Card(props) {
   const { projectName, projectTools, imgPath, repoLink } = props;
 
-  const card = 'w-a h-[250px] flex flex-col justify-center text-center p-3 space-y-5 relative'; // Add 'relative' class here
+  const card = 'w-a h-a flex flex-col justify-center text-center p-3 space-y-5 relative'; // Add 'relative' class here
 
-  const linkContainer = 'absolute bottom-3 right-3 z-10';
+  const linkContainer = 'absolute bottom-3 right-3';
   const imageContainer = 'border-2 rounded-md h-[200px] relative'; // Add 'relative' class here
 
   return (
     <div className={card}>
-      <div className={`${styles.row} ${styles.smallTextTitle} font-bold text-[]`}>
+      <div className={`${styles.row} ${styles.smallTextTitle} font-bold`}>
         <h2>{projectName}</h2>
         <hr className={styles.horizontalRuleRight}></hr>
       </div>
 
       <div className={imageContainer}>
-        <img src="assets/projectBG/bg.jpg" className='z-0' alt="img" />
+        <img
+          src='https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=2000'
+          className='z-10 h-full w-full object-cover' // Use object-cover to fit the image within the container
+          alt="img"
+        />
         <div className={`${linkContainer}`}>
           <a href={repoLink}>
             <svg
@@ -34,9 +38,9 @@ function Card(props) {
         </div>
       </div>
 
-      <div className={`${styles.row} ${styles.smallText} whitespace-nowrap text-white`}>
-        <hr className={styles.horizontalRuleLeft}></hr>
-        <p>{projectTools}</p>
+      <div className={`${styles.row} ${styles.smallText}  text-white`}>
+
+        <p className=''>{projectTools}</p>
       </div>
     </div>
   );

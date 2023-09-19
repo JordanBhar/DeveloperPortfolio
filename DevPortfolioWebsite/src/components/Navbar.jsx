@@ -31,7 +31,7 @@ const Navbar = ({ educationRef, projectsRef, contactRef }) => {
   const navClass = isFixed ? 'fixed right-0 left-0 top-0 transition ease-in-out delay-150 bg-zinc-900 opacity-80 rounded-lg shadow-2xl shadow-cyan-600/50' : 'bg-acrylic rounded-lg shadow-2xl shadow-cyan-600/50 mt-[10px]';
 
   return (
-    <nav className={`${navClass}`}>
+    <nav className={`${navClass} z-50`}>
       <div className=" h-[110px] w-full flex justify-between  ">
         {/* Big Logo Here */}
         <div className="justify-start flex items-center">
