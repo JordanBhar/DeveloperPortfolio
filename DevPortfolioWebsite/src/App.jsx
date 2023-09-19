@@ -21,12 +21,11 @@ const App = () => {
               <div ref={homeRef} id="Home" className="">
               <Home/>
               </div>
-              
-              <div ref={educationRef} id="Education">
-                <Education />
-              </div>
               <div ref={projectsRef} id="Projects">
                 <Projects />
+              </div>
+              <div ref={educationRef} id="Education">
+                <Education />
               </div>
               <div ref={contactRef}  id="Contact">
                 <Contact />
