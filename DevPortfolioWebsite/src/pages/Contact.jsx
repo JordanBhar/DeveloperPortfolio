@@ -14,7 +14,7 @@ export const Contact = () => {
             </div>
           </h2>
 
-          <div className="bg-acrylic h-[100px] rounded-xl">
+          <div className="bg-acrylic h-a rounded-xl p-2">
 
           </div>
         

@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <Router>
-      <div className="bg-primary-gradient overflow-hidden">
+      <div className="bg-primary-gradient overflow-hidden font-poppins">
         <div className={`w-full overflow-hidden h-[3000px] ${styles.flexStart}`}>
           <div className="mx-auto space-y-10"> {/* Center the Navbar */}
             <Navbar />
