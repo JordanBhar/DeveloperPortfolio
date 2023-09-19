@@ -13,6 +13,8 @@ function ProjectGallery() {
                 key={project.id}
                 projectName={project.projectName}
                 projectTools={project.tools}
+                imgPath = {project.imgPth}
+                repoLink={project.projectRepoLink}
                 />
             ))}
         </div>

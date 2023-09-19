@@ -25,8 +25,11 @@ const styles = {
     headerTwoText: '',
     importantText: '',
     regularText: 'text-white text-base md:text-l lg:text-xl',
+    smallText: 'text-white text-base md:text-xs lg:text-sm',
+    smallTextTitle: 'text-white text-base md:text-xs lg:text-base',
 
-    horizontalRule: 'ml-[30px] h-0.5 mt-4 w-full bg-white border-0'
+    horizontalRuleRight: 'ml-[30px] h-0.5 mt-2.5 w-full bg-white border-0',
+    horizontalRuleLeft: 'mr-[30px] h-0.5 mt-2 w-full bg-white border-0'
   };
 
 
@@ -35,6 +38,26 @@ export const stylesHome = {
   
   aboutButtons: 'rounded-full bg-teal-400 text-white py-2 px-4 md:py-3 md:px-5 text-base md:text-xl',
   profileImg: 'h-[12em] w-[12em] md:h-[24em] md:w-[24em] shadow-2xl rounded-full border-2'
+
+}
+
+export const stylesNav = {
+
+  
+
+}
+
+export const stylesSkills_Edu = {
+
+  
+  
+
+}
+
+export const stylesProject = {
+
+  
+  
 
 }
 

@@ -11,7 +11,7 @@ export const Contact = () => {
         <h2 className={`${styles.headerOneText} text-white my-5`}>
             <div className={`${styles.row} items-center`}>
               Contact 
-              <hr className={styles.horizontalRule}></hr>
+              <hr className={styles.horizontalRuleRight}></hr>
             </div>
           </h2>
 

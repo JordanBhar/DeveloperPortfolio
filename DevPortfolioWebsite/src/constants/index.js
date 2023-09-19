@@ -57,11 +57,11 @@ export const tabViewsSkillsEducation = [
 export const projectData = [
   {
     id: 1,
-    projectName: "one",
-    projectRepoLink: "",
+    projectName: "Gympact",
+    projectRepoLink: "https://github.com/JordanBhar/Gympact-FinalProject.git",
     projectDemoLink: "",
     imgPth: "",
-    tools: ""
+    tools: "Swift, Swift UI, XCode, Firebase, Google API"
   },
   {
     id: 2,
@@ -103,6 +103,7 @@ export const projectData = [
     imgPth: "",
     tools: ""
   },
+  
 ]
 
 export const socialMedia = [
