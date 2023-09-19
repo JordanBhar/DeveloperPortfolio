@@ -12,9 +12,12 @@ function ProjectGallery() {
                 <Card
                 key={project.id}
                 projectName={project.projectName}
-                projectTools={project.tools}
-                imgPath = {project.imgPth}
                 repoLink={project.projectRepoLink}
+                demoLink = {project.projectDemoLink}
+                imgPath = {project.imgPth}
+                projectLanguages = {project.languages}
+                projectTools={project.tools}
+                projectDescription = {project.description} 
                 />
             ))}
         </div>

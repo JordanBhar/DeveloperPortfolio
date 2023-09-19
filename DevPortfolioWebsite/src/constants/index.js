@@ -23,7 +23,7 @@ export const tabViewsSkillsEducation = [
     {
       id: 1,
       title: "Front-end",
-      skills: ["HTML", "CSS", "JavaScript" ,"React", "Swift UI"],
+      skills: ["HTML", "CSS", "BootStrap CSS", "Tailwind CSS" ,"JavaScript" ,"React", "Swift UI", "JSON", "XML"],
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ export const tabViewsSkillsEducation = [
     {
       id: 4,
       title: "Programming",
-      skills: ["C & C++", "C#", "Swift" ,"Kotlin", "Java", "Python"],
+      skills: ["C & C++", "C#", "Swift" ,"Kotlin", "Java", "Python", "Dart & Flutter"],
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ export const tabViewsSkillsEducation = [
     {
       id: 6,
       title: "Tools",
-      skills: ["Xcode", "Visual Studio Code", "IntelliJ" ,"CLion"],
+      skills: ["Xcode", "Visual Studio Code", "IntelliJ" ,"CLion", "GIT", "Github", "Figma", "Postman"],
     },
     
     
@@ -61,50 +61,45 @@ export const projectData = [
     projectRepoLink: "https://github.com/JordanBhar/Gympact-FinalProject.git",
     projectDemoLink: "",
     imgPth: "",
-    tools: "Swift, Swift UI, XCode, Firebase, Google API"
+    languages: "Swift & Swift UI",
+    tools: "XCode, Firebase, APIs",
+    description: "Used Swift UI & Xcode  to create a fitness application, in which I implemented an Exercise Tutorial section & cardio section. Other features of the app include a pedometer, Realtime user database, fitness calendar which were implemented by my other group partners  "
   },
   {
+    // i need to download and post as my own project so ppl can see the code
     id: 2,
-    projectName: "two",
-    projectRepoLink: "",
+    projectName: "Movie Database",
+    projectRepoLink: "https://github.com/ahmadmua/PROG30000---Final-Project/tree/main", 
     projectDemoLink: "",
     imgPth: "",
-    tools: ""
+    languages: "C#, .NET, HTML/CSS/JS",
+    tools: "Visual Studio Code, Postman",
+    description: "A Movie database application created with C# & .NET "
   },
   {
+    // i need to download and post as my own project so ppl can see the code
     id: 3,
-    projectName: "three",
-    projectRepoLink: "",
+    projectName: "Shop Till You Drop",
+    projectRepoLink: "https://github.com/TristarMMII/STYD",
     projectDemoLink: "",
     imgPth: "",
-    tools: ""
+    languages: "Swift & Swift UI",
+    tools: "XCode, Firebase, APIs",
+    description: "A IOS application using Swift. This application uses Machine Learning (Image to text) & Google Shopping API. The user can look up any product either manually or by taking a photo of an item, and then uses shopping api to query  for intended product. This project was a group project with two other group members "
+    
   },
   {
     id: 4,
-    projectName: "four",
-    projectRepoLink: "",
+    projectName: "CatDog Application",
+    projectRepoLink: "https://github.com/JordanBhar/CatDogApplication",
     projectDemoLink: "",
     imgPth: "",
-    tools: ""
+    languages: "Java, HTML/CSS/JS , SpringBoot, thymeleaf",
+    tools: "InteliJ",
+    description: "MVC web application for PROG20261, Using Spring boot / Java. A user database was implemented. Each user had a role of cat or dog and with these roles gave users access to different pages of a website"
   },
-  {
-    id: 5,
-    projectName: "five",
-    projectRepoLink: "",
-    projectDemoLink: "",
-    imgPth: "",
-    tools: ""
-  },
-  {
-    id: 6,
-    projectName: "six",
-    projectRepoLink: "",
-    projectDemoLink: "",
-    imgPth: "",
-    tools: ""
-  },
-  
 ]
+
 
 export const socialMedia = [
   {

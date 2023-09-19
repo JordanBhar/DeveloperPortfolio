@@ -24,7 +24,7 @@ const styles = {
     headerOneText: 'text-3xl md:text-4xl font-bold',
     headerTwoText: '',
     importantText: '',
-    regularText: 'text-white text-base md:text-l lg:text-xl',
+    regularText: 'text-white text-base  md:text-l lg:text-[20px]',
     smallText: 'text-white text-base md:text-xs lg:text-sm',
     smallTextTitle: 'text-white text-base md:text-xs lg:text-base',
 

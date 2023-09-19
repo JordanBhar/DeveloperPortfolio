@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import styles from "./style";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Home, Education, Projects, Contact } from "./pages";
+import { Home, Education, Projects, Contact, Skills } from "./pages";
 
 const App = () => {
   const homeRef = useRef(null);
@@ -17,9 +17,12 @@ const App = () => {
           <div className="mx-auto"> {/* Center the Navbar */}
             <Navbar/>
             
-            <div className="space-y-60">
+            <div className="space-y-40">
               <div ref={homeRef} id="Home" className="">
               <Home/>
+              </div>
+              <div ref={educationRef} id="Skills">
+                <Skills />
               </div>
               <div ref={projectsRef} id="Projects">
                 <Projects />

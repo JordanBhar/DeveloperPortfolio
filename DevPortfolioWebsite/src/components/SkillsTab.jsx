@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import styles from "../style";
+import {stylesHome} from "../style";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { tabViewsSkillsEducation } from "../constants";
 import "react-tabs/style/react-tabs.css"; // Import styles (you may need to adjust the path)
@@ -79,14 +81,14 @@ const SkillsTab = () => {
           ) : null}
         </div>
 
-        <div className="m-5 border border-white p-5 rounded-xl text-white">
+        <div className="m-5 border border-white p-10 rounded-xl text-white">
           {tabViewsSkillsEducation.map((skills, index) => (
             <TabPanel key={skills.id}>
               {selectedTab === index && (
-                <ul>
+                <ul className={`${styles.row} flex-wrap justify-start gap-x-5 gap-y-5`}>
                   {skills.skills &&
                     skills.skills.map((skill, skillIndex) => (
-                      <li key={skillIndex}>{skill}</li>
+                      <li key={skillIndex} className="border-2 border-teal-300 rounded-full px-5 py-2">{skill}</li>
                     ))}
                 </ul>
               )}
