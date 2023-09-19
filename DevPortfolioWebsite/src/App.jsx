@@ -29,6 +29,9 @@ const App = () => {
             <div ref={contactRef}  id="Contact">
               <Contact />
             </div>
+
+            
+
           </div>
         </div>
       </div>

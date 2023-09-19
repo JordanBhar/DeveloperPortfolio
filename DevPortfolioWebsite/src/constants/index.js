@@ -19,6 +19,42 @@ export const navLinks = [
   },
 ];
 
+export const tabViewsSkillsEducation = [
+    {
+      id: 1,
+      title: "Front-end",
+      skills: ["HTML", "CSS", "JavaScript" ,"React", "Swift UI"],
+    },
+    {
+      id: 2,
+      title: "Back-end",
+      skills: [".NET", "SpringBoot"],
+    },
+    {
+      id: 3,
+      title: "Database",
+      skills: ["Firebase", "SQL", "SQL lite"],
+    },
+    {
+      id: 4,
+      title: "Programming",
+      skills: ["C & C++", "C#", "Swift" ,"Kotlin", "Java", "Python"],
+    },
+    {
+      id: 5,
+      title: "Testing",
+      skills: ["xUnit",],
+    },
+    {
+      id: 6,
+      title: "Tools",
+      skills: ["Xcode", "Visual Studio Code", "IntelliJ" ,"CLion"],
+    },
+    
+    
+] 
+
+
 // export const features = [
 //   {
 //     id: "feature-1",
