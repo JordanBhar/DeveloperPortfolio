@@ -40,10 +40,10 @@ const SkillsTab = () => {
     <div>
       <Tabs selectedIndex={selectedTab} onSelect={handleTabSelect}>
         {/* Show TabList on screens larger than small (sm) */}
-        <TabList className="hidden md:flex py-3 px-5 space-x-4 text-white flex flex-row items-center flex-wrap">
+        <TabList className="hidden md:flex pb-2 px-5 space-x-4 text-white flex flex-row items-center flex-wrap border-b-2">
           {tabViewsSkillsEducation.map((skills) => (
             <Tab
-              className="transition duration-700 ease-in-out hover:text-teal-300"
+              className="transition duration-700 ease-in-out hover:text-teal-300 "
               key={skills.id}
             >
               <span className=" lg:text-xl xl:text-2xl">{skills.title}</span>

@@ -12,7 +12,7 @@ function Card(props) {
   return (
     <div className={card}>
       <div className={`${styles.row} ${styles.smallTextTitle} font-bold`}>
-        <h2 className='whitespace-nowrap'>{projectName}</h2>
+        <h2 className='whitespace-nowrap text-teal-300'>{projectName}</h2>
         <hr className={styles.horizontalRuleRight}></hr>
       </div>
 
@@ -26,8 +26,8 @@ function Card(props) {
           <a href={repoLink}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
+              width="40"
+              height="40"
               fill="currentColor"
               className="bi bi-github bg-teal-300 rounded-full p-1"
               viewBox="0 0 16 16"

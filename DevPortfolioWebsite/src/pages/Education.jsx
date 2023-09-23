@@ -10,7 +10,7 @@ export const Education = () => {
         
           <h2 className={`${styles.headerOneText} text-white my-5`}>
             <div className={`${styles.row} items-center`}>
-              <p className='whitespace-nowrap'>Education</p>
+              <p className='whitespace-nowrap'>Education & Courses</p>
               <hr className={styles.horizontalRuleRight}></hr>
             </div>
           </h2>

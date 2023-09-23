@@ -1,4 +1,5 @@
-import {  linkedin  } from "../assets";
+import {  linkedin, school, whatsapp, location, discord  } from "../assets";
+
 
 export const navLinks = [
   {
@@ -18,6 +19,16 @@ export const navLinks = [
     title: "Contact",
   },
 ];
+
+export const aboutData = [
+
+  {
+    name: "Jordan Bhar",
+    job: "Full-Stack Developer",
+    about: "Insert Text Here"
+  }
+
+]
 
 export const tabViewsSkillsEducation = [
     {
@@ -53,6 +64,30 @@ export const tabViewsSkillsEducation = [
     
     
 ] 
+
+export const contactData = [
+  {
+    id: 1,
+    data: "Toronto, Ontario" ,
+    icon: location,
+  },
+  {
+    id: 1,
+    data: "Sheridan College" ,
+    icon: school,
+  },
+  {
+    id: 1,
+    data: "SampleUsername" ,
+    icon: discord,
+  },
+  {
+    id: 1,
+    data: "Jordan Bhar" ,
+    icon: whatsapp,
+  },
+  
+]
 
 export const projectData = [
   {
