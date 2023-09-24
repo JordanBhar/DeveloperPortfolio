@@ -7,12 +7,16 @@ export const navLinks = [
     title: "Home",
   },
   {
+    id: "Skills",
+    title: "Skills",
+  },
+  {
     id: "Projects",
     title: "Projects",
   },
   {
     id: "Education",
-    title: "Education & Skills",
+    title: "Education",
   },
   {
     id: "Contact",
