@@ -29,7 +29,10 @@ export const aboutData = [
   {
     name: "Jordan Bhar",
     job: "Full-Stack Developer",
-    about: "Insert Text Here"
+    about: "Insert Text Here",
+    github: "https://github.com/JordanBhar",
+//the resume should be a file path to an asset of my resume within this project
+    resume: "" 
   }
 
 ]
