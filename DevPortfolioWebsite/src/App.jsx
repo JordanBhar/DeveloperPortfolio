@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import styles from "./style";
+import Footer from './components/Footer'
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Home, Education, Projects, Contact, Skills } from "./pages";
@@ -34,8 +35,12 @@ const App = () => {
                 <Contact />
               </div>
             </div>
+
+            
           </div>
+          
         </div>
+        <Footer />
       </div>
     </Router>
   );
