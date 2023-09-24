@@ -21,7 +21,7 @@ const styles = {
     containers: 'bg-acrylic rounded-lg shadow-2xl p:p-4 md:p-8',
     col: 'flex flex-col',
     row: 'flex flex-row',
-    headerOneText: 'text-3xl md:text-4xl font-bold',
+    headerOneText: 'text-3xl md:text-5xl font-bold',
     headerTwoText: '',
     importantText: '',
     regularText: 'text-white text-base  md:text-l lg:text-[20px]',

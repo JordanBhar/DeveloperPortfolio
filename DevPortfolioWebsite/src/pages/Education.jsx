@@ -16,8 +16,13 @@ export const Education = () => {
           </h2>
 
           <div className={styles.containers}>
+                <p className="text-2xl md:text-4xl font-bold text-white mb-10">
+                  <span className="text-gradient">Sheridan College</span>
+                </p>
             <div className="grid grid-cols-1 md:grid-cols-2 ">
+              
               <div className={`${styles.regularText} p:order-last p:mt-5 md:order-first`}>
+                
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia iure eum harum maiores voluptatum cum deserunt porro consequuntur eaque, aspernatur molestiae totam fuga tenetur placeat ipsa voluptate commodi assumenda consectetur cupiditate atque corporis! Nihil eos non at vero cupiditate reprehenderit ipsam, quo accusantium quod amet laborum mollitia vitae placeat. Necessitatibus esse voluptates fuga inventore ratione perferendis? Aspernatur illum quo porro magni quasi eaque maiores? Commodi saepe voluptas excepturi aut dolores reiciendis, quibusdam libero debitis quam. Culpa fugit maiores dignissimos enim hic similique sequi asperiores illum dolore atque doloribus ullam, officiis repellat laborum voluptas itaque tempore aspernatur qui amet cum in soluta a, sed velit. Odit nemo.
               </div>
               
