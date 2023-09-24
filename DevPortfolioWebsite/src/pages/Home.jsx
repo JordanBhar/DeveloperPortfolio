@@ -10,7 +10,7 @@ const Home = () => {
  
   return (
     <section className="mt-16" id="Home">
-      <div className={`${styles.paddingX} ${styles.flexCenter} container`}>
+      <div className={`${styles.flexCenter} container`}>
         <div className={`${styles.boxWidth}`}>
 
           <div className="flex flex-col md:flex-row space-y-5 md:space-y-10 md:space-x-40">
@@ -19,7 +19,7 @@ const Home = () => {
 
             
 
-            <div className={`${styles.containers} md:w-3/4 space-y-5 md:space-y-10`}>
+            <div className={`${styles.containers} md:w-5/6 lg:w-4/8 space-y-5 md:space-y-10`}>
 
               
 
@@ -58,7 +58,7 @@ const Home = () => {
               </div>
 
               {/* Buttons */}
-              <div className={`${styles.row} pt-[30px] space-x-5 justify-start`}>
+              <div className={`flex flex-col ss:flex-row  pt-[30px] ss:space-x-5 ss:justify-center sm:justify-start gap-y-5`}>
 
                 {/* Button 1 */}
 
@@ -85,7 +85,7 @@ const Home = () => {
             </div>
 
             {/* Row Item 2 */}
-            <div className="md:w-2/4 hidden md:flex flex flex-row justify-end ">
+            <div className="flex flex-row md:flex md:w-3/4 hidden  justify-start  xl:justify-center">
               <div className={`${styles.col} justify-center`}>
                 <img src={profile} className={stylesHome.profileImg} alt="Profile"/>
               </div>

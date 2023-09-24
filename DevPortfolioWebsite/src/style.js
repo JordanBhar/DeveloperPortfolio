@@ -1,5 +1,5 @@
 const styles = {
-   boxWidth: "xl:w-[1800px] lg:w-[1200px] md:w-[800px] sm:w-[560px] ss:w-[360px] xs:w-[280px] p:w-[220px] w-full self-center mx-auto",
+   boxWidth: "xl:w-[2000px] lg:w-[1300px] md:w-[900px] sm:w-[560px] ss:w-[360px] xs:w-[280px] p:w-[220px] w-full self-center mx-auto",
 
    //use this file later on to reduce the ammount of tailwind css classes declared in the components & pages and instead put styles in here so that the page looks cleaner
 
@@ -37,7 +37,7 @@ export const stylesHome = {
 
   
   aboutButtons: 'rounded-full bg-teal-400 text-white py-2 px-4 md:py-2 md:px-4 text-base md:text-[20px]',
-  profileImg: 'h-[12em] w-[12em] md:h-[24em] md:w-[24em] shadow-2xl rounded-full border-2'
+  profileImg: 'md:absolute h-[12em] w-[12em] sm:h-[15em] sm:w-[15em] md:w-[20em] md:h-[20em]  lg:w-[25em] lg:h-[25em] shadow-2xl rounded-full border-2'
 
 }
 
